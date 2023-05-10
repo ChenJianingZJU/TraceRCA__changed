@@ -140,10 +140,10 @@ def invo_anomaly_detection_main(input_file, output_file, history, useful_feature
 
 
 if __name__ == '__main__':
-    input_file = r'E:\AIOPs\TraceRCA-main\A\uninjection\admin-order_abort_1011_data.pkl'
-    history = r'E:\AIOPs\TraceRCA-main\A\uninjection\pkl_3_data.pkl'
-    output_file = r'E:\AIOPs\TraceRCA-main\A\uninjection\invo_anomaly_detection_2.pkl'
-    useful_feature = r'E:\AIOPs\TraceRCA-main\A\uninjection\useful_feature_2'
+    input_file = r'./admin-order_abort_1011_data.pkl'
+    history = r'./pkl_3_data.pkl'
+    output_file = r'./invo_anomaly_detection_2.pkl'
+    useful_feature = r'./useful_feature_2'
     main_threshold = 1
 
 

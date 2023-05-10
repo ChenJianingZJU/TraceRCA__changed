@@ -172,9 +172,9 @@ def selecting_feature_main(input_file: str, output_file: str, history: str, fish
 
 
 if __name__ == '__main__':
-    input_file = r'E:\AIOPs\TraceRCA-main\A\uninjection\admin-order_abort_1011_data.pkl'
-    history = r'E:\AIOPs\TraceRCA-main\A\uninjection\pkl_3_data.pkl'
-    output_file = r'E:\AIOPs\TraceRCA-main\A\uninjection\useful_feature_2'
+    input_file = r'./admin-order_abort_1011_data.pkl'
+    history = r'./pkl_3_data.pkl'
+    output_file = r'./useful_feature_2'
     fisher_threshold = 1
     selecting_feature_main(input_file = input_file,output_file = output_file,history = history,fisher_threshold = fisher_threshold)
 

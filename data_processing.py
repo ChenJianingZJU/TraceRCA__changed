@@ -1,7 +1,7 @@
 import pickle
 import pandas as pd
 
-file = r'E:\AIOPs\TraceRCA-main\A\uninjection\3.pkl' #下载下来的原始文件
+file = r'./3.pkl' #下载下来的原始文件
 with open(str(file),'rb') as f:
     pkl_data = pickle.load(f)
 df = pd.DataFrame()
@@ -25,7 +25,7 @@ def save_dict(data, name):
     with open(name , 'wb') as f:
         pickle.dump(data, f)
 
-save_dict(df,r'F:\AIOPS\TraceRCA-main\A\uninjection\pkl_3_data.pkl') #重新调整后符合代码输入格式的数据
+save_dict(df,r'./pkl_3_data.pkl') #重新调整后符合代码输入格式的数据
 
 
 # '''反向解析时间戳'''
